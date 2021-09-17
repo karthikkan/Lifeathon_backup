@@ -23,12 +23,15 @@
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="images/Life.png">
+    <link rel="img" href="images/Life.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
     
@@ -37,7 +40,8 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/Life.png" alt="alternative"> LIFEATHON</a> 
+            <a class="navbar-brand logo-image" href="index.html"  style="font-family: 'Bad Script', cursive;">
+                <img src="images/Life.png" alt="Logo" style="width:75px;height:auto"> Lifeathon</a> 
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
@@ -60,7 +64,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Startups</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li><a class="dropdown-item" href="article.html">Article Details</a></li>
@@ -69,7 +73,7 @@
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                 </ul>
                 <span class="nav-item">
                     <a class="btn-solid-sm" href="#contact">Contact Us</a>
@@ -78,7 +82,7 @@
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
-
+    
       
     <!-- Header -->
     <header id="header" class="header">
@@ -87,7 +91,7 @@
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
                         <h1 class="h1-large">LIFEATHON SEASON 02</h1>
-                        <p class="p-large">Find Innovative Solutions to your problems...</p>
+                        <p class="p-large" style="text-align: justify;">Entrepreneurs always search for change, respond to it, and utilizes it as an opportunity. Lifeathon - Season 2 provides such a wonderful opportunity that opens up a wide network where students get connected with the start-ups and explore the real world around them.</p>
                         <a class="btn-solid-lg" href="#services">Read More</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -119,9 +123,16 @@
                             <span class="fas fa-headphones-alt"></span>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Analyse your product</h5>
-                            <p>Et blandit nisl libero at arcu. Donec ac lectus sed tellus mollis viverra. Nullam pharetra ante at nunc elementum</p>
-                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <h5 class="card-title">Submission Guidelines</h5>
+                            <ul>
+                                <li>Students from any AICTE approved institution(all over India)can participate.</li>
+                                <li>Participants can form a team consisting of 3-5 members in which a girl member is compulsory.</li>
+                                <li>Teams can have inter-disciplinary participants.</li>
+                                <li>Only new and original ideas will be considered for the contest.</li>
+                                <li>Innovative solutions in their prescribed format should be sent to the following <a href="lifeathon@cce.edu.in" style="font-weight: bold;">lifeathon@cce.edu.in</a></li>
+                                <li>One team can submit solutions for more than one problem statement.More than one solution for the same problem statement from a team is not invited.</li>
+                            </ul>
+                           
                         </div>
                     </div>
                     <!-- end of card -->
@@ -132,9 +143,16 @@
                             <span class="far fa-clipboard"></span>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Evaluate opportunities</h5>
-                            <p>Vulputate nibh feugiat. Morbi pellent diam nec libero lacinia, sed ultrices velit scelerisque. Nunc placerat justo sem</p>
-                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <h5 class="card-title">Timeline</h5>
+                            <ul>
+                                <li>Release of problem statements and starting of online submission of solution: 15/09/2021</li>
+                                <li>Last date for solution submission: 01/10/2021</li>
+                                <li>Declaration of shortlisted solutions: 08/10/2021</li>
+                                <li>Presentation of solutions: 11/10/2021</li>
+                                <li>Prototype progress review: 25/11/2021-30/11/2021</li>
+                                <li> Submission of prototype: 10/12/2021</li>
+                            </ul>
+                            
                         </div>
                     </div>
                     <!-- end of card -->
@@ -145,9 +163,11 @@
                             <span class="far fa-comments"></span>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Find the influencers</h5>
-                            <p>Ety suscipit metus sollicitudin euqu isq imperdiet nibh nec magna tincidunt, nec pala vehicula neque sodales verum</p>
-                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <h5 class="card-title">Product Analyzing</h5>
+                            <p>The submitted solutions for the problem statements will be presented infront of the expert panel of advisory board.This provides opportunity for participants to analyse their solutions and add on the necessary corrections if any.The innovative solutions will be  evaluated and selected to the next stage.
+                                Lifeathon provides such a wonderful opportunity that opens up a wide network where students get connected with the start-ups. Lot more exciting offers such as internships, placements awaits the young innovative minds.
+                            </p>
+                            
                         </div>
                     </div>
                     <!-- end of card -->
@@ -170,10 +190,11 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <div class="section-title">WHAT WE DO</div>
-                        <h2>The right influencer can boost your conversion</h2>
-                        <p>Etiam tempus condimentum congue. In sit amet nisi eget massa condimentum lobortis eget ac eros. In hac habitasse platea dictumst. Aenean molestie mauris eget sapien sagittis, a bibendum magna tincidunt</p>
-                        <a class="btn-solid-reg" href="#contact">Get quote</a>
+                        <div class="section-title">WHAT IS LIFEATHON?</div>
+                        <h2>Connecting Students with Start-ups</h2>
+                        <p><b>LIFEATHON</b>  is an innovative hackathon event organized at Christ College of Engineering Irinjalakuda.
+                              This platform serves as a fruitful event for the students to interact and learn with experienced mentors, professional companies and an opportunity to focus on Skilling and Upskilling. Lifeathon will also create a pathway for students to get internships and placements in startups.</p>
+                        <a class="btn-solid-reg" href="problemstatements.html">Register Now</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -188,10 +209,10 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <div class="section-title">ABOUT US</div>
-                        <h2>We have ten years experience in marketing</h2>
-                        <p>Etiam tempus condimentum congue. In sit amet nisi eget massa condimentum lobortis eget ac eros. In hac habitasse platea dictumst. Aenean molestie mauris eget sapien sagittis, a bibendum magna tincidunt</p>
-                        <a class="btn-outline-reg" href="article.html">Details</a>
+                        <div class="section-title">Throw Back...</div>
+                        <h2>An Overview of LIFEATHON Season 01</h2>
+                        <p style="text-align: justify;">The first edition of lifeathon named "LIFEATHON – a Socio-Technical Hackathon” was organized as a bridging between academia and societal problems.The Advisory panel consisted of Doctorate holders, Class C Scientists, Chief Officers of various renowned companies, from all over India. From 16th January 2019 to 25th of January, 2019, the team of lifeathon collected almost 25 problems from different walks of life. There were over 20 team registrations. The best solution for each of the problem statements were funded through this event. Each team was continuously monitored and mentored for a period of 3 months within which they developed the prototype. It was then handed over to the respective beneficiaries during the valedictory function of LIFEATHON which was held on 10th May 2019.</p>
+                        <a class="btn-outline-reg" href="problemstatements.html">Problem Statements</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
@@ -210,86 +231,105 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="h2-heading">Online service features</h2>
-                    <p class="p-heading">Suspendisse vitae enim arcu. Aliquam convallis risus a felis blandit, at mollis nisi bibendum. Aliquam nec purus at ex blandit posuere nec a odio. Proin lacinia dolor justo</p>
+                    <h2 class="h2-heading">Our Advisory Board</h2>
+                    <p class="p-heading">Meet our Excellent Panelists...</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->   
-            <div class="row">
-                <div class="col-xl-5">
+            
                     <div class="accordion" id="accordionExample">
+                        <div class="panel0">
+                            
+                            <div class="panel1">
+                              <div class="panel2">
+                                <img src="img1.jpg" alt="RIYAS" style="width:100%">
+                                <div class="panel3">
+                                  <h7 >Mohammed Riyas</h7>
+                                  <p class="title">Project Director, KSUM</p>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="panel1">
+                              <div class="panel2">
+                                <img src="img2.jpg" alt="SREEKUTTY" style="width:100%">
+                                <div class="panel3">
+                                  <h7>Sreekutty O U</h7>
+                                  <p class="title">Project Assistant, KSUM</p>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="panel1">
+                              <div class="panel2">
+                                <img src="img3.jpg" alt="SUJAY" style="width:100%">
+                                <div class="panel3">
+                                  <h7>Sujay Sreedhar</h7>
+                                  <p class="title">Co-founder & Chairman, SSERD</p>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel1">
+                                <div class="panel2">
+                                  <img src="img3.jpg" alt="ROBIN" style="width:100%">
+                                  <div class="panel3">
+                                    <h7>Robin Thomas</h7>
+                                    <p class="title">Co-Founder, Astrek Innovation</p>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel1">
+                                <div class="panel2">
+                                  <img src="img3.jpg" alt="John" style="width:100%">
+                                  <div class="panel3">
+                                    <h7 >Pinky Jayaprakash</h7>
+                                    <p class="title">Founder & CEO, JPnME</p>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel1">
+                                <div class="panel2">
+                                  <img src="img3.jpg" alt="John" style="width:100%">
+                                  <div class="panel3">
+                                    <h7 style="color: white;">Sunil Paul</h7>
+                                    <p class="title">Co-Founder & CEO, Srishti Robotics</p>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel1 col-sm">
+                                <div class="panel2">
+                                  <img src="img3.jpg" alt="John" style="width:100%">
+                                  <div class="panel3">
+                                    <h7 style="color: white;">Salini VR</h7>
+                                    <p class="title">Assistant Manager, KSUM</p>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel1 ">
+                                <div class="panel2">
+                                  <img src="img3.jpg" alt="John" style="width:100%">
+                                  <div class="panel3">
+                                    <h7 style="color: white;">Nikhitha C</h7>
+                                    <p class="title">CEO, SSERD</p>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          
+                   
+                       
                         
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon">
-                                <span class="fas fa-tv"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Analyse the product and design plan
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Mauris ornare libero et pharetra hendrerit. Cura elementum lectus quis tellus pretium, vitae lobortis dui sagittis aliquam et enim vel semon anticus</div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
-
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon blue">
-                                <span class="fas fa-microphone"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Find the market opportunities
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Mauris ornare libero et pharetra hendrerit. Cura elementum lectus quis tellus pretium, vitae lobortis dui sagittis aliquam et enim vel semon anticus</div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
-
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon purple">
-                                <span class="fas fa-video"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingThree">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Prepare the product launch campaign
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Mauris ornare libero et pharetra hendrerit. Cura elementum lectus quis tellus pretium, vitae lobortis dui sagittis aliquam et enim vel semon anticus</div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
                         
-                        <!-- Accordion Item -->
-                        <div class="accordion-item">
-                            <div class="accordion-icon orange">
-                                <span class="fas fa-tools"></span>
-                            </div> <!-- end of accordion-icon -->
-                            <div class="accordion-header" id="headingFour">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Evaluate the campaign and adjust
-                                </button>
-                            </div> <!-- end of accordion-header -->
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Mauris ornare libero et pharetra hendrerit. Cura elementum lectus quis tellus pretium, vitae lobortis dui sagittis aliquam et enim vel semon anticus</div>
-                            </div> <!-- end of accordion-collapse -->
-                        </div> <!-- end of accordion-item -->
-                        <!-- end of accordion-item -->
 
                     </div> <!-- end of accordion -->
-                </div> <!-- end of col -->
-                <div class="col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/features-dashboard.png" alt=alternative>
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+               
         </div> <!-- end of container -->
     </div> <!-- end of accordion-1 -->
     <!-- end of features -->
@@ -300,7 +340,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Customer testimonials</h2>
+                    <h2 class="h2-heading">Testimonials...</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -311,8 +351,8 @@
                         <img class="quotes" src="images/quotes.svg" alt="alternative">
                         <div class="card-body">
                             <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Roe Smith</div>
-                            <div class="occupation">General Manager, Presentop</div>
+                            <div class="testimonial-author">Sukanyathara J</div>
+                            <div class="occupation">Staff co-ordinator</div>
                         </div>
                         <div class="gradient-floor red-to-blue"></div>
                     </div>
@@ -323,8 +363,8 @@
                         <img class="quotes" src="images/quotes.svg" alt="alternative">
                         <div class="card-body">
                             <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Sam Bloom</div>
-                            <div class="occupation">General Manager, Presentop</div>
+                            <div class="testimonial-author">Shilpa Sivadas</div>
+                            <div class="occupation">Student Co-ordinator</div>
                         </div>
                         <div class="gradient-floor blue-to-purple"></div>
                     </div>
@@ -335,48 +375,14 @@
                         <img class="quotes" src="images/quotes.svg" alt="alternative">
                         <div class="card-body">
                             <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Bill McKenzie</div>
-                            <div class="occupation">General Manager, Presentop</div>
+                            <div class="testimonial-author">Siva</div>
+                            <div class="occupation">General Manager</div>
                         </div>
                         <div class="gradient-floor purple-to-green"></div>
                     </div>
                     <!-- end of card -->
                     
-                    <!-- Card -->
-                    <div class="card">
-                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                        <div class="card-body">
-                            <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Vanya Dropper</div>
-                            <div class="occupation">General Manager, Presentop</div>
-                        </div>
-                        <div class="gradient-floor red-to-blue"></div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                        <div class="card-body">
-                            <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Lefty Brown</div>
-                            <div class="occupation">General Manager, Presentop</div>
-                        </div>
-                        <div class="gradient-floor blue-to-purple"></div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                        <div class="card-body">
-                            <p class="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                            <div class="testimonial-author">Susane Blake</div>
-                            <div class="occupation">General Manager, Presentop</div>
-                        </div>
-                        <div class="gradient-floor purple-to-green"></div>
-                    </div>
-                    <!-- end of card -->
+                   
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -386,15 +392,15 @@
 
 
     <!-- Customers -->
-    <div class="slider-1">
+    <!-- <div class="slider-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h4>Trusted by over <span class="blue">5000</span> customers worldwide</h4>
-                    <hr class="section-divider">
+                    <hr class="section-divider"> -->
 
                     <!-- Image Slider -->
-                    <div class="slider-container">
+                    <!-- <div class="slider-container">
                         <div class="swiper-container image-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -414,10 +420,10 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
-                                </div>
-                            </div> <!-- end of swiper-wrapper -->
-                        </div> <!-- end of swiper container -->
-                    </div> <!-- end of slider-container -->
+                                </div> -->
+                            <!-- </div> 
+                        </div> 
+                    </div>  -->
                     <!-- end of image slider -->
 
                 </div> <!-- end of col -->
@@ -428,14 +434,26 @@
 
 
     <!-- Invitation -->
-    <div class="basic-3">
-        <div class="container">
-            <div class="row">
+    <div class="basic-3" >
+        <div class="container" >
+            <div class="row" >
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h2>Find the right influencer for your product</h2>
-                        <p class="p-large">Eu convallis arcu ultrices in. Mauris ornare libero et pharetra hendrerit. Curabitur elementum lectus quis vioc tellus</p>
-                        <a class="btn-solid-lg" href="#contact">Get free quote</a>
+                        <h2>Influencers for your product</h2>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-lg-3"><img src="images/com1 (1).png" width=100></div>
+                              <div class="col-lg-3"><img src="images/com1 (2).png" height=100 ></div>
+                              <div class="col-lg-3"><img src="images/com1 (3).png" height=100></div>
+                              <div class="col-lg-3"><img src="images/com1 (4).png" height=100></div>
+                            </div>
+                            <div class="row mb-5" >
+                                <div class="col-lg-4"><img src="images/com1 (5).png" height=100></div>
+                                <div class="col-lg-4"><img src="images/com1 (6).png" height=100 ></div>
+                                <div class="col-lg-4"><img src="images/com1 (7).png" height=100></div>
+                              </div>
+                        </div>
+                        <a class="btn-solid-lg" href="problemstatements.html">Problem Statements</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -450,23 +468,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <div class="section-title">GET QUOTE</div>
-                        <h2>Submit the form for quote</h2>
-                        <p>Aliquam et enim vel sem pulvinar suscipit sit amet quis lorem. Sed risus ipsum, egestas sed odio in, pulvinar euismod ipsum. Sed ut enim non nunc fermentum dictum et sit amet erat. Maecenas</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">Vel maximus nunc aliquam ut. Donec semper, magna a pulvinar</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">Suscipit sit amet quis lorem. Sed risus ipsum, egestas mare</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">Sem pulvinar suscipit sit amet quis lorem. Sed risus</div>
-                            </li>
-                        </ul>
+                        <div class="section-title">Contact Us</div>
+                        <h2>Submit the form to get in touch with us</h2>
+                        Innovation and Entrepreneurship Development Centre,<br>
+Christ College of Engineering,<br>
+Irinjalakuda,
+Thrissur.<br>
+Pin:680125
+                        
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -521,12 +530,6 @@
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
@@ -570,10 +573,12 @@
         <img src="images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
-    	
+   
     <!-- Scripts -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
